@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form action="/submit" method="post">
+        <p>Text Input</p>
+        <input type="text" name="username" placeholder="Username">
+        <p>Password Input</p>
+        <input type="password" name="password" placeholder="Password">
+        <p>Radio Buttons</p>
+        <input type="radio" name="sex" value="sex">Male<br>
+        <input type="radio" name="sex" value="sex">Female<br>
+        <p>checkbox</p>
+        <input type="checkbox"  name="hobby" value="hobby">Coding <br>
+        <input type="checkbox"  name="hobby" value="hobby">Sports <br>
+        <input type="checkbox"  name="hobby" value="hobby">Music <br>
+        <input type="checkbox"  name="hobby" value="hobby">Travel <br>
+        <input type="checkbox"  name="hobby" value="hobby">Reading <br>
+        <input type="checkbox"  name="hobby" value="hobby">Gaming <br>
+        <p>Select Option</p>
+            <select name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="japan">Japan</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+                <option value="brazil">Brazil</option>
+            </select><br><br>
+        </select>
+        <textarea name="comments" cols="50" rows="4" placeholder="Comments"></textarea><br><br>
+        <p>Submit and Reset Buttons</p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
